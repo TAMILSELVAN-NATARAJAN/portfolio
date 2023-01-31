@@ -1,495 +1,592 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/style-switcher.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-   <!-- <link rel="stylesheet" href="./style-switcher.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="styles/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="styles/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="styles/color-3.css"
+      class="alternate-style"
+      title="color-3"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="styles/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+  </head>
 
-    <link rel="stylesheet" href="./color-1.css" class="alternate-style" title="color-1" disabled>
-    <link rel="stylesheet" href="./color-2.css" class="alternate-style" title="color-2" disabled>
-    <link rel="stylesheet" href="./color-3.css" class="alternate-style" title="color-3">
-    <link rel="stylesheet" href="./color-4.css" class="alternate-style" title="color-4" disabled>
-    <link rel="stylesheet" href="./color-5.css" class="alternate-style" title="color-5" disabled>
-</head>
-
-
-<body>
-    <div class="main-container ">
-        <!--====================aside start======================-->
-        <div class="aside">
-            <div class="logo">
-                <a href="#"><span>T</span>amizh</a>
-            </div>
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-            <ul class="nav">
-                <li><a href="#home"><i class="fa-solid fa-house"></i>home</a></li>
-                <li><a href="#about"><i class="fa-solid fa-user"></i>About</a></li>
-                <li><a href="#service"><i class="fa-solid fa-microchip"></i>Services</a></li>
-                <li><a href="#"><i class="fa-solid fa-image-portrait"></i>portfolio</a></li>
-                <li><a href="#contact"><i class="fa-solid fa-address-book"></i>contact</a></li>
-            </ul>
+  <body>
+    <div class="main-container">
+      <!--====================aside start======================-->
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>T</span>amil</a>
         </div>
-        <!--====================aside end======================-->
-        <!--====================main-content start======================-->
-        <div class="main-content">
-            <!--====================home-content start======================-->
-            <section class="home section padd-15" id="home">
-                <div class="container">
-                    <div class="row">
-                        <div class="home-info    padd-15">
-                            <h3 class="hello">Hello,My name is <span class="name">Tamil selvan</span></h3>
-                            <h3 class="my-profession">I'm a <span class="typing">Web designer</span></h3>
-                            <p>I'm a web designer with extensive experience for over 2 years.My expertise is to create
-                                and website desgin,graphic design
-                                ,and many more...
-                            </p>
-                            <a href="#contact" class="btn-hire btn">Hire me</a>
-                        </div>
-                        <div class="home-img hiddens ">
-                            <img src="./hero.jpg" alt="heroImage">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--====================home-content end======================-->
-            <!--====================about-content start======================-->
-            <section class="about section padd-15" id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title">
-                            <h2>About Me</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="about-content  padd-15">
-                            <div class="row">
-                                <div class="about-text">
-                                    <h2 class="parti">Education</h2>
-                                </div>
-                            </div>
-                            <div class="parti-list">
-                                <h2>Kongunadu college of engineering and technology</h2>
-                                <h4>Pursuing <span>(CGPA : 8.27%)</span> upto 4 <sup>th</sup> SEM</h4>
-                            </div>
-
-                            <div class="parti-list">
-                                <h2>Siga higher Secondary school</h2>
-                                <h4>Higher secondary school <span>(2019-2020)</span></h4>
-                                <h3>SCORE : <span>61.17%</span></h3>
-                            </div>
-
-                            <div class="parti-list">
-                                <h2>Siga higher Secondary school</h2>
-                                <h4>SSLC State Board <span>(2017-2018)</span></h4>
-                                <h3>SCORE : <span>82.6%</span></h3>
-                            </div>
-
-                            <div class="row">
-                                <div class="about-text" style="margin-top: 20px;">
-                                    <h2 class="parti">Projects</h2>
-                                </div>
-                            </div>
-
-                            <div class="parti-list">
-                                <h2>Automatic Railway Gate control system.</h2>
-                                <h5>By employing the automatic railway gate control at the level
-                                    crossing the arrival of the train is detected by the sensors placed near to the
-                                    gate. Hence, the time for which it is closed is less compared
-                                    to the manually operated gates. The operation is
-                                    automatic; error due to manual operation is prevented.</h5>
-                            </div>
-
-
-                            <div class="parti-list">
-                                <h2>RFID based attendance system using nodemcu.</h2>
-                                <h5>Taking traditional manual pen-paper attendance, which is very time-consuming,
-                                    insecure and usually leads to human errors as well as prone to misconduct, as the
-                                    valuable time and work gets wasted in organizing and structuring the attendance data
-                                    in registers. Hence to overcome this major hectic problem, we have used relational
-                                    database management system in real time with appropriate security measures to
-                                    access,
-                                    manipulate and represent the data on the basis of the unique RFID tags, which gets
-                                    fast and easily scanned on the RFID reader.</h5>
-                            </div>
-
-                            <div class="row">
-                                <div class="about-text" style="margin-top: 20px;">
-                                    <h2 class="parti">Achievements</h2>
-                                </div>
-                            </div>
-
-                            <div class="parti-list">
-                                <h2>2021-2022 :</h2>
-                                <h5>Participated in <span>"Agnitoz"</span> Hackthon conducted in <span>"Kongunadu
-                                        college of engineering and
-                                        technology",</span> and <span class="pri"> won Second prize.</span></h5>
-                            </div>
-
-                            <div class="row">
-                                <div class="about-text" style="margin-top: 20px;">
-                                    <h2 class="parti">Extra-Curricular Activities</h2>
-                                </div>
-                            </div>
-
-                            <div class="parti-list ">
-                                <h3>Organised <span>"Teckcluster"</span>National level symposim in <span>"Kongunadu
-                                        college of engineering and technology".</span></h3>
-                            </div>
-
-                            <div class="row">
-                                <div class="about-text" style="margin-top: 20px ;">
-                                    <h2 class="parti">Skills</h2>
-                                </div>
-                            </div>
-
-                            <!--image in programing-->
-
-                            <div class="skils-collec ">
-                                <div class="skils-col hidden" style="margin-top: 30px;">
-                                    <div class="imag-name">
-                                        <img src="./c.png" alt="">
-                                        <h3>C</h3>
-                                    </div>
-                                </div>
-
-                                <div class="skils-col hidden" style="margin-top: 30px;">
-                                    <div class="imag-name">
-                                        <img src="./c++.png" alt="">
-                                        <h3>C++</h3>
-                                    </div>
-                                </div>
-
-                                <div class="skils-col hidden" style="margin-top: 30px;">
-                                    <div class="imag-name">
-                                        <img src="./Java.png" alt="">
-                                        <h3>Java</h3>
-                                    </div>
-                                </div>
-
-                                <div class="skils-col hidden" style="margin-top: 30px;">
-                                    <div class="imag-name">
-                                        <img src="./py.webp" alt="">
-                                        <h3>Python</h3>
-                                    </div>
-                                </div>
-
-                                <div class="skils-col hidden2" style="margin-top: 30px;">
-                                    <div class="imag-name">
-                                        <img src="./html.png" alt="">
-                                        <h3>HTML5</h3>
-                                    </div>
-                                </div>
-
-                                <div class="skils-col hidden2" style="margin-top: 30px;">
-                                    <div class="imag-name">
-                                        <img src="./css.webp" alt="">
-                                        <h3>CSS</h3>
-                                    </div>
-                                </div>
-
-                                <div class="skils-col hidden2" style="margin-top: 30px;">
-                                    <div class="imag-name">
-                                        <img src="./js.png" alt="">
-                                        <h3>JavaScript</h3>
-                                    </div>
-                                </div>
-
-                                <div class="skils-col hidden2" style="margin-top: 30px;">
-                                    <div class="imag-name">
-                                        <img src="./iot.png" alt="">
-                                        <h3>IOT</h3>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- ---------------------------------------achivements--------------------------------------------------------->
-                            <div class="row">
-                                <div class="about-text" style="margin-top: 20px;">
-                                    <h2 class="parti">Area of Interest</h2>
-                                </div>
-                            </div>
-                            <div class="parti-list">
-                                <ul>
-                                    <li>
-                                        <h3><i class="fa-sharp fa-solid fa-arrow-right"
-                                                style="margin-right: 5px;"></i>Web Developer</h3>
-                                    </li>
-                                    <li>
-                                        <h3><i class="fa-sharp fa-solid fa-arrow-right"
-                                                style="margin-right: 5px;"></i>UI/UX Designer</h3>
-                                    </li>
-                                </ul>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="about-text" style="margin-top: 20px;">
-                                    <h2 class="parti">Hobbies</h2>
-                                </div>
-                            </div>
-
-                            <div class="parti-list">
-                                <ul>
-                                    <li>
-                                        <h3><i class="fa-sharp fa-solid fa-arrow-right"
-                                                style="margin-right: 5px;"></i>Listening Music</h3>
-                                    </li>
-                                    <li>
-                                        <h3><i class="fa-sharp fa-solid fa-arrow-right"
-                                                style="margin-right: 5px;"></i>Love to explore nature places</h3>
-                                    </li>
-                                    <li>
-                                        <h3><i class="fa-sharp fa-solid fa-arrow-right"
-                                                style="margin-right: 5px;"></i>Like to learn new things</h3>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <!--====================about-content end======================-->
-
-
-            <!-------------service section start--------------------->
-            <section class="service section " id="service">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title">
-                            <h2>Services</h2>
-                        </div>
-                    </div>
-                   <div class="row">
-                    <!--------service items start------------->
-                    <div class="service-item">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-mobile-alt"></i>
-                            </div>
-                            <h4>Web Developer</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam a
-                                 fugiat quia perferendis aut qui deserunt vitae? Asperiores quibusdam, doloribus.</P>
-                        </div>
-                    </div>
-                         <!--------service items end------------->
-
-                         <!--------service items start------------->
-                    <div class="service-item">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-mobile-alt"></i>
-                            </div>
-                            <h4>Web Developer</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam a
-                                 fugiat quia perferendis aut qui deserunt vitae? Asperiores quibusdam, doloribus.</P>
-                        </div>
-                    </div>
-                         <!--------service items end------------->
-
-                         <!--------service items start------------->
-                    <div class="service-item">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-mobile-alt"></i>
-                            </div>
-                            <h4>Web Developer</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam a
-                                 fugiat quia perferendis aut qui deserunt vitae? Asperiores quibusdam, doloribus.</P>
-                        </div>
-                    </div>
-                         <!--------service items end------------->
-
-                            <!--------service items start------------->
-                    <div class="service-item">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-mobile-alt"></i>
-                            </div>
-                            <h4>Web Developer</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam a
-                                 fugiat quia perferendis aut qui deserunt vitae? Asperiores quibusdam, doloribus.</P>
-                        </div>
-                    </div>
-                         <!--------service items end------------->
-
-                            <!--------service items start------------->
-                    <div class="service-item">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-mobile-alt"></i>
-                            </div>
-                            <h4>Web Developer</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam a
-                                 fugiat quia perferendis aut qui deserunt vitae? Asperiores quibusdam, doloribus.</P>
-                        </div>
-                    </div>
-                         <!--------service items end------------->
-
-
-                            <!--------service items start------------->
-                    <div class="service-item">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-mobile-alt"></i>
-                            </div>
-                            <h4>Web Developer</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam a
-                                 fugiat quia perferendis aut qui deserunt vitae? Asperiores quibusdam, doloribus.</P>
-                        </div>
-                    </div>
-                         <!--------service items end------------->
-
-                   </div>
-
-
-                </div>
-            </section>
-            <!-------------service section start--------------------->
-
-            <!--====================contact-content end======================-->
-            <div class="contact section" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title">
-                            <h2> contact</h2>
-                        </div>
-                    </div>
-
-                    <h3 class="contact-title padd-15">Have You any Question?</h3>
-                    <h4 class="contact-sub-title padd-15">I'm At your Services</h4>
-
-                    <div class="row">
-
-                        <!-----------contact item car------------------>
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-phone"></i></div>
-                            <h4>call us on</h4>
-                            <p>+91 9444123712</p>
-                        </div>
-
-
-
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-                            <h4>College</h4>
-                            <p>Kongunadu college of engineering and tecnology</p>
-                        </div>
-
-
-
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-envelope"></i></div>
-                            <h4>Email</h4>
-                            <p>tamilselvan.admire@gmail.com</p>
-                        </div>
-
-
-
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                            <h4>Website</h4>
-                            <p>www.domain.com</p>
-                        </div>
-
-                    </div>
-                    <!-----------contact item end------------------>
-                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-                    <h4 class="contact-sub-title padd-15">I'M VERY RESOPNES TO MESSAGES</h4>
-
-                    <!---------------contact form----------------->
-                    <div class="row">
-                        <div class="contact-form padd-15">
-
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-controller" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-controller" placeholder="Email">
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-controller" placeholder="subject">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" id="" class="form-controller"
-                                            placeholder="message"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <button type="submit " class="btn">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!--====================contact-content end======================-->
+        <div class="nav-toggler">
+          <span></span>
         </div>
+        <ul class="nav">
+          <li>
+            <a href="#home"><i class="fa-solid fa-house"></i>home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa-solid fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#service"><i class="fa-solid fa-microchip"></i>Services</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-image-portrait"></i>portfolio</a>
+          </li>
+          <li>
+            <a href="#contact"
+              ><i class="fa-solid fa-address-book"></i>contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!--====================aside end======================-->
+      <!--====================main-content start======================-->
+      <div class="main-content">
+        <!--====================home-content start======================-->
+        <section class="home section padd-15" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello,My name is <span class="name">Tamil selvan</span>
+                </h3>
+                <h3 class="my-profession">
+                  I'm a <span class="typing">Web designer</span>
+                </h3>
+                <p>
+                  I'm a web designer with extensive experience for over 2
+                  years.My expertise is to create and website desgin,graphic
+                  design ,and many more...
+                </p>
+                <a href="#contact" class="btn-hire btn">Hire me</a>
+              </div>
+              <div class="home-img hiddens">
+                <img src="assets/hero.jpg" alt="heroImage" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--====================home-content end======================-->
+        <!--====================about-content start======================-->
+        <section class="about section padd-15" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text">
+                    <h2 class="parti">Education</h2>
+                  </div>
+                </div>
+                <div class="parti-list">
+                  <h2>Kongunadu college of engineering and technology</h2>
+                  <h4>
+                    Pursuing <span>(CGPA : 8.27%)</span> upto 4
+                    <sup>th</sup> SEM
+                  </h4>
+                </div>
 
-        <!--====================main-content end======================-->
+                <div class="parti-list">
+                  <h2>Siga higher Secondary school</h2>
+                  <h4>Higher secondary school <span>(2019-2020)</span></h4>
+                  <h3>SCORE : <span>61.17%</span></h3>
+                </div>
+
+                <div class="parti-list">
+                  <h2>Siga higher Secondary school</h2>
+                  <h4>SSLC State Board <span>(2017-2018)</span></h4>
+                  <h3>SCORE : <span>82.6%</span></h3>
+                </div>
+
+                <div class="row">
+                  <div class="about-text" style="margin-top: 20px">
+                    <h2 class="parti">Projects</h2>
+                  </div>
+                </div>
+
+                <div class="parti-list">
+                  <h2>Automatic Railway Gate control system.</h2>
+                  <h5>
+                    By employing the automatic railway gate control at the level
+                    crossing the arrival of the train is detected by the sensors
+                    placed near to the gate. Hence, the time for which it is
+                    closed is less compared to the manually operated gates. The
+                    operation is automatic; error due to manual operation is
+                    prevented.
+                  </h5>
+                </div>
+
+                <div class="parti-list">
+                  <h2>RFID based attendance system using nodemcu.</h2>
+                  <h5>
+                    Taking traditional manual pen-paper attendance, which is
+                    very time-consuming, insecure and usually leads to human
+                    errors as well as prone to misconduct, as the valuable time
+                    and work gets wasted in organizing and structuring the
+                    attendance data in registers. Hence to overcome this major
+                    hectic problem, we have used relational database management
+                    system in real time with appropriate security measures to
+                    access, manipulate and represent the data on the basis of
+                    the unique RFID tags, which gets fast and easily scanned on
+                    the RFID reader.
+                  </h5>
+                </div>
+
+                <div class="row">
+                  <div class="about-text" style="margin-top: 20px">
+                    <h2 class="parti">Achievements</h2>
+                  </div>
+                </div>
+
+                <div class="parti-list">
+                  <h2>2021-2022 :</h2>
+                  <h5>
+                    Participated in <span>"Agnitoz"</span> Hackthon conducted in
+                    <span
+                      >"Kongunadu college of engineering and technology",</span
+                    >
+                    and <span class="pri"> won Second prize.</span>
+                  </h5>
+                </div>
+
+                <div class="row">
+                  <div class="about-text" style="margin-top: 20px">
+                    <h2 class="parti">Extra-Curricular Activities</h2>
+                  </div>
+                </div>
+
+                <div class="parti-list">
+                  <h3>
+                    Organised <span>"Teckcluster"</span> National level symposim
+                    in
+                    <span
+                      >"Kongunadu college of engineering and technology".</span
+                    >
+                  </h3>
+                </div>
+
+                <div class="row">
+                  <div class="about-text" style="margin-top: 20px">
+                    <h2 class="parti">Skills</h2>
+                  </div>
+                </div>
+
+                <!--image in programing-->
+
+                <div class="skils-collec">
+                  <div class="skils-col hidden" style="margin-top: 30px">
+                    <div class="imag-name">
+                      <img src="assets/c.png" alt="" />
+                      <h3>C</h3>
+                    </div>
+                  </div>
+
+                  <div class="skils-col hidden" style="margin-top: 30px">
+                    <div class="imag-name">
+                      <img src="assets/c++.png" alt="" />
+                      <h3>C++</h3>
+                    </div>
+                  </div>
+
+                  <div class="skils-col hidden" style="margin-top: 30px">
+                    <div class="imag-name">
+                      <img src="assets/Java.png" alt="" />
+                      <h3>Java</h3>
+                    </div>
+                  </div>
+
+                  <div class="skils-col hidden" style="margin-top: 30px">
+                    <div class="imag-name">
+                      <img src="assets/py.webp" alt="" />
+                      <h3>Python</h3>
+                    </div>
+                  </div>
+
+                  <div class="skils-col hidden2" style="margin-top: 30px">
+                    <div class="imag-name">
+                      <img src="assets/html.png" alt="" />
+                      <h3>HTML5</h3>
+                    </div>
+                  </div>
+
+                  <div class="skils-col hidden2" style="margin-top: 30px">
+                    <div class="imag-name">
+                      <img src="assets/css.webp" alt="" />
+                      <h3>CSS</h3>
+                    </div>
+                  </div>
+
+                  <div class="skils-col hidden2" style="margin-top: 30px">
+                    <div class="imag-name">
+                      <img src="assets/js.png" alt="" />
+                      <h3>JavaScript</h3>
+                    </div>
+                  </div>
+
+                  <div class="skils-col hidden2" style="margin-top: 30px">
+                    <div class="imag-name">
+                      <img src="assets/iot.png" alt="" />
+                      <h3>IOT</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- ---------------------------------------achivements--------------------------------------------------------->
+                <div class="row">
+                  <div class="about-text" style="margin-top: 20px">
+                    <h2 class="parti">Area of Interest</h2>
+                  </div>
+                </div>
+                <div class="parti-list">
+                  <ul>
+                    <li>
+                      <h3>
+                        <i
+                          class="fa-sharp fa-solid fa-arrow-right"
+                          style="margin-right: 5px"
+                        ></i
+                        >Web Developer
+                      </h3>
+                    </li>
+                    <li>
+                      <h3>
+                        <i
+                          class="fa-sharp fa-solid fa-arrow-right"
+                          style="margin-right: 5px"
+                        ></i
+                        >UI/UX Designer
+                      </h3>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="row">
+                  <div class="about-text" style="margin-top: 20px">
+                    <h2 class="parti">Hobbies</h2>
+                  </div>
+                </div>
+
+                <div class="parti-list">
+                  <ul>
+                    <li>
+                      <h3>
+                        <i
+                          class="fa-sharp fa-solid fa-arrow-right"
+                          style="margin-right: 5px"
+                        ></i
+                        >Listening Music
+                      </h3>
+                    </li>
+                    <li>
+                      <h3>
+                        <i
+                          class="fa-sharp fa-solid fa-arrow-right"
+                          style="margin-right: 5px"
+                        ></i
+                        >Love to explore nature places
+                      </h3>
+                    </li>
+                    <li>
+                      <h3>
+                        <i
+                          class="fa-sharp fa-solid fa-arrow-right"
+                          style="margin-right: 5px"
+                        ></i
+                        >Like to learn new things
+                      </h3>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--====================about-content end======================-->
+
+        <!-------------service section start--------------------->
+        <section class="service section" id="service">
+          <div class="container">
+            <div class="row">
+              <div class="section-title">
+                <h2>Services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!--------service items start------------->
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Web Developer</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam a fugiat quia perferendis aut qui deserunt vitae?
+                    Asperiores quibusdam, doloribus.
+                  </p>
+                </div>
+              </div>
+              <!--------service items end------------->
+
+              <!--------service items start------------->
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Web Developer</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam a fugiat quia perferendis aut qui deserunt vitae?
+                    Asperiores quibusdam, doloribus.
+                  </p>
+                </div>
+              </div>
+              <!--------service items end------------->
+
+              <!--------service items start------------->
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Web Developer</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam a fugiat quia perferendis aut qui deserunt vitae?
+                    Asperiores quibusdam, doloribus.
+                  </p>
+                </div>
+              </div>
+              <!--------service items end------------->
+
+              <!--------service items start------------->
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Web Developer</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam a fugiat quia perferendis aut qui deserunt vitae?
+                    Asperiores quibusdam, doloribus.
+                  </p>
+                </div>
+              </div>
+              <!--------service items end------------->
+
+              <!--------service items start------------->
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Web Developer</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam a fugiat quia perferendis aut qui deserunt vitae?
+                    Asperiores quibusdam, doloribus.
+                  </p>
+                </div>
+              </div>
+              <!--------service items end------------->
+
+              <!--------service items start------------->
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Web Developer</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam a fugiat quia perferendis aut qui deserunt vitae?
+                    Asperiores quibusdam, doloribus.
+                  </p>
+                </div>
+              </div>
+              <!--------service items end------------->
+            </div>
+          </div>
+        </section>
+        <!-------------service section start--------------------->
+
+        <!--====================contact-content end======================-->
+        <div class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title">
+                <h2>contact</h2>
+              </div>
+            </div>
+
+            <h3 class="contact-title padd-15">Have You any Question?</h3>
+            <h4 class="contact-sub-title padd-15">I'm At your Services</h4>
+
+            <div class="row">
+              <!-----------contact item car------------------>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>call us on</h4>
+                <p>+91 9444123712</p>
+              </div>
+
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>College</h4>
+                <p>Kongunadu college of engineering and tecnology</p>
+              </div>
+
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>tamilselvan.admire@gmail.com</p>
+              </div>
+
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>www.domain.com</p>
+              </div>
+            </div>
+            <!-----------contact item end------------------>
+            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title padd-15">
+              I'M VERY RESOPNES TO MESSAGES
+            </h4>
+
+            <!---------------contact form----------------->
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-controller"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-controller"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-controller"
+                        placeholder="subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name=""
+                        id=""
+                        class="form-controller"
+                        placeholder="message"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <button type="submit " class="btn">Send Message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--====================contact-content end======================-->
+      </div>
+
+      <!--====================main-content end======================-->
     </div>
 
-    <div class="style-switcher ">
-        <div class="style-switcher-toggle s-icon">
-            <p><i class="fa-solid fa-gear"></i></p>
-        </div>
-        <div class="day-night s-icon">
-            <p><i class="fa-solid fa-moon"></i></p>
-        </div>
-        <h4>theme color</h4>
-        <div class="colors">
-            <span class="color-1" onclick="setactivstyle('color-1')"></span>
-            <span class="color-2" onclick="setactivstyle('color-2')"></span>
-            <span class="color-3" onclick="setactivstyle('color-3')"></span>
-            <span class="color-4" onclick="setactivstyle('color-4')"></span>
-            <span class="color-5" onclick="setactivstyle('color-5')"></span>
-
-        </div>
-
+    <div class="style-switcher">
+      <div class="style-switcher-toggle s-icon">
+        <p><i class="fa-solid fa-gear"></i></p>
+      </div>
+      <div class="day-night s-icon">
+        <p><i class="fa-solid fa-moon"></i></p>
+      </div>
+      <h4>theme color</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setactivstyle('color-1')"></span>
+        <span class="color-2" onclick="setactivstyle('color-2')"></span>
+        <span class="color-3" onclick="setactivstyle('color-3')"></span>
+        <span class="color-4" onclick="setactivstyle('color-4')"></span>
+        <span class="color-5" onclick="setactivstyle('color-5')"></span>
+      </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-        referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./style-switcher.js"></script>
-</body>
-
+  </body>
 </html>
 
 <i class="fa-solid fa-moon"></i>
